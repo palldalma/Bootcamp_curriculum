@@ -1,0 +1,70 @@
+nav {
+  background-color: #333333;
+  margin-top: 0 px;
+  margin-left: 0 px;
+  margin-right: 0 px;
+}
+body {
+  margin: 0;
+  color: black;
+  background-image: url("topography.png");
+}
+
+ul {
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+li {
+  display: inline;
+  margin-left: 0;
+  padding-top: 10px;
+}
+
+h1 {
+  color: black;
+  font-family: BigShouldersDisplay-Bold;
+}
+
+#jobtitle {
+  color: #ff0099;
+}
+
+a {
+  color: #ff0099;
+  padding-left: 15 px;
+}
+
+#main {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#LinkContainer {
+  font-family: "Courier New", Courier, monospace;
+  padding-right: 10%;
+  float: right;
+  word-spacing: 25px;
+}
+
+#logo {
+  padding-left: 10%;
+}
+
+#text1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#separator {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#submit {
+  margin-top: 25 px;
+}

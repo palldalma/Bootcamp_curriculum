@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie-selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/action_page.php" id="movie-selector">
+        <label for="genre">Movie Selector</label>
+        <select id="genre" name="genre" form="movie-selector">
+          <div class="genre-options-container">
+            <option value="Select a genre" selected>Select a genre</option>
+            <option value="Sci-fi">Sci-fi</option>
+            <option value="Drama">Drama</option>
+            <option value="Comedy">Comedy</option>
+          </div>
+        </select>
+
+        <select id="movie" name="movie" form="movie-selector">
+          <div class="movie-options-container">
+            <option value="Select a movie" selected>Select a movie</option>
+            <option value="Moon" class="drama">Moon</option>
+            <option value="2001: A Space Odyssey" class="sci-fi">
+              2001: A Space Odyssey
+            </option>
+            <option value="Contact" class="sci-fi">Contact</option>
+            <option value="Darkest Hour" class="drama">Darkest Hour</option>
+            <option value="There Will Be Blood" class="drama">
+              There Will Be Blood
+            </option>
+            <option value="American Beauty" class="comedy">
+              American Beauty
+            </option>
+            <option value="Airplane!" class="comedy">Airplane!</option>
+            <option value="Deadpool" class="comedy">Deadpool</option>
+            <option value="Wayne's World" class="comedy">Wayne's World</option>
+          </div>
+        </select>
+        <p>The selected movie is:</p>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

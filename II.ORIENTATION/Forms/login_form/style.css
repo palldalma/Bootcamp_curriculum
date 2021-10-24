@@ -1,0 +1,104 @@
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 300px;
+  /* Form outline */
+  padding: 3em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font: 1em sans-serif;
+  color: rgb(71, 71, 71);
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: block;
+  width: 90px;
+  padding-bottom: 2%;
+  font-size: 8px;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  height: 40px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  outline: none !important;
+  border-color: #7cce71;
+  box-shadow: 0 0 10px #7cce71;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.help {
+  font-size: 10px;
+  text-align: right;
+  margin-top: 1.3em;
+}
+
+button {
+  border-radius: 25px;
+  width: 100px;
+  border: none;
+  background-color: rgb(90, 83, 83);
+  color: white;
+  padding: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+}
+button:active {
+  filter: brightness(90%);
+  outline: none;
+  border: none;
+}
+button:focus {
+  outline: none;
+}
+
+#liwithpass {
+  position: relative;
+}
+i {
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+}

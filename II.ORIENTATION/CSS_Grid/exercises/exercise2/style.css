@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  background-color: rgb(52, 49, 49);
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.purple {
+  background-color: violet;
+}
+
+.green {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  grid-column: 2/4;
+  grid-row: 1/3;
+  background-color: rgb(124, 255, 80);
+  display: flex;
+}
+
+#yellow {
+  background-color: yellow;
+  width: 100%;
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+}
+
+body {
+  padding: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  border: black solid 1px;
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  padding: 3%;
+}
+
+button {
+  position: absolute;
+  top: 10%;
+  height: 13%;
+  width: 30%;
+  background: rgb(215, 136, 169);
+  background: radial-gradient(
+    circle,
+    rgba(215, 136, 169, 1) 0%,
+    rgba(252, 202, 70, 0.31324404761904767) 100%
+  );
+  outline: none;
+  border: solid 1px rgb(213, 209, 209);
+  border-radius: 5px;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  filter: brightness(90%);
+}
+
+.container {
+  text-align: center;
+}

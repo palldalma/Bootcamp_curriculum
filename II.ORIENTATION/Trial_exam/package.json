@@ -1,0 +1,27 @@
+{
+  "name": "orientation-example-exam",
+  "version": "1.0.0",
+  "description": "## Getting Started - Fork this repository under your own account - Clone the forked repository to your computer - Create a `.gitignore` file so generated files won't be committed - Commit your progress frequently and with descriptive commit messages - All your answers and solutions should go in this repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palldalma/orientation-example-exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palldalma/orientation-example-exam/issues"
+  },
+  "homepage": "https://github.com/palldalma/orientation-example-exam#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  padding-top: 10vh;
+}
+.container {
+  background-color: rgb(255, 183, 195);
+  display: flex;
+  width: 50vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font: 1em sans-serif;
+  -webkit-box-shadow: 13px 15px 0px 4px #ac66ff;
+  box-shadow: 13px 15px 0px 4px #ac66ff;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  font-size: 25px;
+  padding-bottom: 5%;
+}
+
+#movie,
+#genre {
+  width: 200px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIS+3VMU9CMRTF8d8zBL+aizoQFhx0kUk33RzdYMNFXUFnYeGrYYyaJiUxJHDLSxodbNKpfeffc9/pbaPyaCrr+3OA++z4rtT5Pg5GuMnCY9yWQEoBE1xhlUUP8YDrCBIB0vojLvGO0yz4hm4JJAKcYYoPHGOZAUdYoIMBXrc5iQAHeMlzviFygj7O8dkWEJU4XI8chALRhn9AVKHf70VRTHu4wFfbmKZLNKt50dLBnna0imcMd/2I0phWa3Y/D1e1Xa9BCZJG0VuQNpaWKMx72xS1Fl5/WN3BN+AgJhnZQlq4AAAAAElFTkSuQmCC");
+  background-position: calc(100% - 0.5rem), 100% 0;
+  background-size: 1.5em 1.5em;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-left: 5%;
+}
+
+#movie,
+#genre:focus {
+  outline: none;
+}
+
+p {
+  margin-top: 3%;
+  font-size: 15px;
+}

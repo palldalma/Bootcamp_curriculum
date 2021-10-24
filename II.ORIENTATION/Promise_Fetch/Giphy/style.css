@@ -1,0 +1,105 @@
+@media screen and (min-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  body {
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5%;
+    position: relative;
+  }
+
+  button {
+    position: absolute;
+    justify-self: center;
+    top: 2%;
+    height: 10vh;
+    width: 30%;
+    background: rgb(215, 136, 169);
+    background: radial-gradient(
+      circle,
+      rgba(215, 136, 169, 1) 0%,
+      rgba(252, 202, 70, 0.31324404761904767) 100%
+    );
+    outline: none;
+    border: solid 1px rgb(213, 209, 209);
+    border-radius: 5px;
+  }
+
+  button:hover {
+    filter: brightness(110%);
+  }
+
+  button:active {
+    filter: brightness(90%);
+  }
+
+  .container {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  body {
+    padding-top: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5%;
+    position: relative;
+  }
+
+  button {
+    position: absolute;
+    justify-self: center;
+    top: 1%;
+    height: 5vh;
+    width: 30%;
+    background: rgb(215, 136, 169);
+    background: radial-gradient(
+      circle,
+      rgba(215, 136, 169, 1) 0%,
+      rgba(252, 202, 70, 0.31324404761904767) 100%
+    );
+    outline: none;
+    border: solid 1px rgb(213, 209, 209);
+    border-radius: 5px;
+  }
+
+  button:hover {
+    filter: brightness(110%);
+  }
+
+  button:active {
+    filter: brightness(90%);
+  }
+
+  .container {
+    text-align: center;
+  }
+}

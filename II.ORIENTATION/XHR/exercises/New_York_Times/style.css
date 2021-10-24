@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(219, 206, 206);
+}
+
+container {
+  width: 65vw;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+  color: rgb(180, 51, 180);
+}
+
+a:visited {
+  color: rgb(180, 51, 180);
+}
+
+p {
+  font-size: small;
+}

@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  padding-top: 3%;
+}
+
+wrapper {
+  box-sizing: border-box;
+  width: 75vw;
+  background-color: lavenderblush;
+  padding: 3%;
+}
+
+button {
+  margin-top: 3%;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dispatch event</title>
+  </head>
+  <body>
+    <button>Fire event on the div</button>
+    <div>Event is not fired yet</div>
+
+    <script type="text/javascript">
+      const div = document.querySelector("div");
+
+      document.querySelector("div").addEventListener("click", (event) => {
+        event.target.innerText = "Yeah, click event is fired!";
+        console.log(event);
+      });
+      document.querySelector("button").addEventListener("click", (event) => {
+        div.click();
+      });
+    </script>
+  </body>
+</html>

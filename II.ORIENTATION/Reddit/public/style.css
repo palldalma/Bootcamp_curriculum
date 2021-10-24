@@ -1,0 +1,176 @@
+.header {
+  height: 25vh;
+  background-image: url("https://miro.medium.com/max/2880/1*Ar1k9HjU8Rhq1tqA6GEcdg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  width: 70vw;
+  z-index: 1;
+  /* border-bottom: 2vh solid white; */
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+body {
+  margin: 0 auto;
+  border: 0;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 0.5%;
+}
+
+.mainContainer {
+  padding-top: 27vh;
+  display: flex;
+  height: 100%;
+  width: 70vw;
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  padding-bottom: 3%;
+}
+
+.tableContainer {
+  flex-grow: 6;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  margin-right: 0.5vw;
+  border: rgba(69, 69, 69, 0.413) solid 1px;
+  color: black;
+  overflow-y: scroll;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.deleteBox {
+  padding-left: 1.5vw;
+}
+
+.hearts {
+  color: rgb(237, 20, 20);
+  margin-left: 1.5vw;
+}
+
+.brokenhearts {
+  color: rgba(69, 69, 69, 0.749);
+}
+
+i:hover {
+  filter: brightness(150%);
+}
+
+i:active {
+  filter: brightness(80%);
+}
+
+a {
+  margin: none;
+  display: block;
+  padding-left: 1vw;
+}
+
+a:link {
+  font-size: smaller;
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(64, 237, 255);
+  background: linear-gradient(
+    49deg,
+    rgba(64, 237, 255, 1) 34%,
+    rgba(110, 255, 66, 1) 100%
+  );
+}
+
+a:active {
+  filter: brightness(110%);
+}
+
+.submitsection {
+  padding: 3%;
+  width: 28%;
+  border-radius: 10px;
+  border: rgba(69, 69, 69, 0.413) solid 1px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.linkToSubmitPage {
+  height: 6vh;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(64, 237, 255);
+  background: linear-gradient(
+    49deg,
+    rgba(64, 237, 255, 1) 34%,
+    rgba(110, 255, 66, 1) 100%
+  );
+  margin-bottom: 3vh;
+  outline: none;
+}
+
+.linkToSubmitPage:hover {
+  filter: brightness(110%);
+  outline: 0;
+  border: 0;
+}
+
+.linkToSubmitPage:active {
+  filter: brightness(90%);
+  outline: 0;
+  border: 0;
+}
+
+.linkToSubmitPage:visited {
+  outline: 0;
+  border: 0;
+}
+
+.infobox {
+  height: 80%;
+  background-color: rgb(176, 255, 154);
+  width: 100%;
+  color: black;
+  font-size: small;
+
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 3%;
+}
+
+p {
+  margin: 0.5vh;
+}
+
+/* .likecounter,
+.reaction2 {
+  padding-left: 2.5%;
+} */

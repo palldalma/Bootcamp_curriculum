@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffd62a;
+  height: 300px;
+  list-style-type: none;
+}
+
+.item {
+  background-color: #b02aff;
+  width: 100px;
+  height: 100px;
+  margin-right: 7px;
+}

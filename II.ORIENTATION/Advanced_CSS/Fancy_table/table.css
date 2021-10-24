@@ -1,0 +1,73 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 6%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 80%;
+  height: 80vh;
+}
+
+th {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  height: 15vh;
+  border: 3px solid white;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+
+table {
+  margin: auto;
+  width: 60%;
+  height: 50vh;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+}
+
+#month {
+  border-right: 1px solid white;
+}
+
+p {
+  padding: 4%;
+}
+
+.left {
+  border: 1px solid white;
+  border-left: 0;
+  border-top: 0;
+}
+
+.right {
+  border: 1px solid white;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(225, 225, 225);
+}
+
+tr:nth-child(2n + 1) {
+  background-color: rgb(198, 198, 201);
+}
+
+td[data-currency] > p::before {
+  content: "$";
+}

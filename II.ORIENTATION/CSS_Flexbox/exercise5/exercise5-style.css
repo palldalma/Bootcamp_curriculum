@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.cyan {
+  position: fixed;
+  background-color: cyan;
+  top: 0;
+  width: 960px;
+  height: 80px;
+}
+
+.blue {
+  background-color: navy;
+  bottom: 0;
+  width: 960px;
+  height: 80px;
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.orange {
+  flex-grow: 1;
+  background-color: orange;
+  margin-right: 15px;
+}
+
+.red {
+  flex-grow: 2;
+  background-color: red;
+  text-align: end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.purple {
+  flex-grow: 1;
+  background-color: purple;
+  margin-left: 15px;
+}
+
+.square {
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+body {
+  margin: 0;
+}

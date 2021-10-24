@@ -1,0 +1,20 @@
+container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+thead {
+  background-color: darkseagreen;
+}
+
+.title {
+  text-align: center;
+}
+
+button {
+  margin-top: 3%;
+  font-size: large;
+}

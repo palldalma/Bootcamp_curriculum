@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get position</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <h1>Who's behind the IP?</h1>
+      <div class="top">
+        <input type="text" id="inputIPAddress" placeholder="Enter IP Address" />
+        <button>Search</button>
+      </div>
+      <div>
+        <iframe
+          id="map"
+          width="500"
+          height="350"
+          loading="lazy"
+          allowfullscreen
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCpc-OlKPSeJq6Sc8wCRdEg-t2CzPPilXQ
+    &q=Space+Needle,Seattle+WA"
+        >
+        </iframe>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+#allquestions {
+  height: 40vh;
+  overflow-y: scroll;
+  padding-top: 2vh;
+}
+
+i {
+  color: white;
+  font-weight: bold;
+}
+
+.questionbox {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 80% 10%;
+  text-align: left;
+  /* grid-template-rows: minmax(10px, 1fr); */
+  padding-top: 2vh;
+  padding-left: 7vw;
+  padding-bottom: 2vh;
+}
+
+.questionbox:hover {
+  background-color: rgba(47, 201, 175, 0.228);
+}
+
+.q {
+  font-size: 18px;
+}
+
+.delete {
+  background-color: tomato;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.delete,
+.q {
+  height: 30px;
+}
+
+.delete:hover {
+  filter: brightness(130%);
+}
+
+.delete:active {
+  filter: brightness(90%);
+}

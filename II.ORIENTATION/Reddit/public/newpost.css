@@ -1,0 +1,118 @@
+.header {
+  height: 25vh;
+  background-image: url("https://miro.medium.com/max/2880/1*Ar1k9HjU8Rhq1tqA6GEcdg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  width: 70vw;
+  z-index: 1;
+  /* border-bottom: 2vh solid white; */
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+body {
+  padding-top: 27vh;
+  margin: 0 auto;
+  border: 0;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 0.5%;
+}
+
+.mainContainer {
+  border-radius: 10px;
+
+  width: 70vw;
+  height: 70vh;
+  box-sizing: border-box;
+  border: rgba(69, 69, 69, 0.413) solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  border-radius: 10px;
+
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: rgb(237, 187, 215);
+  border-radius: 10px;
+  padding: 3%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  flex-grow: 1;
+  height: 20%;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1%;
+  outline: none;
+}
+
+label {
+  padding-left: 10%;
+  font-size: 15px;
+  padding-bottom: 1%;
+}
+
+#instruction {
+  text-align: center;
+}
+
+button {
+  color: white;
+  margin-top: 3%;
+  align-self: center;
+  width: 30%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(252, 70, 107, 1) 100%;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+button:active {
+  outline: none;
+  border: none;
+  filter: brightness(110%);
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 60vw;
+  min-height: 80vh;
+  background-color: rgba(32, 31, 31, 0.719);
+}
+
+button {
+  border: 0;
+  margin-top: 10px;
+  margin-left: 10vw;
+  width: 40px;
+  padding: 0;
+  font-size: medium;
+  height: 40px;
+  outline: none;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  display: none;
+}
+
+button[data-action="delete"] {
+  background-color: rgba(221, 47, 47, 0.904);
+  width: 40px;
+  content: none;
+}
+
+button[data-action="delete"]:hover {
+  width: 120px;
+}
+
+button[data-action="delete"]:hover span {
+  display: block;
+}
+
+button[data-action="delete"]:active {
+  filter: brightness(90%);
+}
+
+button[data-action="confirm"] {
+  background-color: rgba(25, 189, 19, 0.904);
+  width: 40px;
+}
+
+button[data-action="confirm"]:hover {
+  width: 120px;
+}
+
+button[data-action="confirm"]:hover span {
+  display: block;
+}
+
+button[data-action="confirm"]:active {
+  filter: brightness(90%);
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow {
+  background-color: #ffd62a;
+  width: 800px;
+  height: 300px;
+}
+
+.purple {
+  background-color: #b02aff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}

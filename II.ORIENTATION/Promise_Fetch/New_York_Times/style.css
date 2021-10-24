@@ -1,0 +1,42 @@
+* {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(219, 206, 206);
+}
+
+container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 3%;
+  width: 65vw;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3%;
+  padding-top: 4%;
+}
+
+a:link {
+  color: rgb(180, 51, 180);
+}
+
+a:visited {
+  color: rgb(180, 51, 180);
+}
+
+p {
+  font-size: small;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}

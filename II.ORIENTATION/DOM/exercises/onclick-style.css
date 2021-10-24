@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+div {
+  height: 100vh;
+}
+
+.party {
+  background: url(https://media.giphy.com/media/4c4jQPdVv381G/giphy.gif);
+}

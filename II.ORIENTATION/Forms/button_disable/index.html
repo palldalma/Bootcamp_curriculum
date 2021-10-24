@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>What's your favourite pet?</title>
+  </head>
+  <body>
+    <form action="/my-handling-form-page" method="post">
+      <p>What's your favourite pet?</p>
+      <input type="radio" id="dog" name="pet" value="dog" />
+      <label for="dog">Dog</label><br />
+      <input type="radio" id="cat" name="pet" value="cat" />
+      <label for="cat">Cat</label><br />
+      <input type="radio" id="viktor" name="pet" value="viktor" />
+      <label for="viktor">Viktor the goldfish</label>
+
+      <br />
+
+      <p>Do you want to sign up for cat facts?</p>
+      <input type="radio" id="yes" name="signup" />
+      <label for="yes">Yes</label><br />
+      <input type="radio" id="no" name="signup" />
+      <label for="no">No</label><br />
+
+      <input type="button" value="I love cats" id="lovecats" name="lovecats" />
+      <input type="button" value="Sign up" id="signupBTN" name="signupBTN" />
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

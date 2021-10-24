@@ -1,0 +1,51 @@
+/* Make balloon less balloon-like (change its shape) */
+
+.red {
+  color: red;
+}
+.balloon {
+  background-color: lime;
+  border-radius: 100%;
+}
+.pear {
+  background: lime;
+  padding: 2rem;
+  text-decoration: uppercase;
+}
+
+.balloon {
+  width: 96px;
+  box-sizing: content-box;
+  height: 48px;
+  background: #eee;
+  border-color: limegreen;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  border-radius: 100%;
+  position: relative;
+}
+
+.balloon:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #eee;
+  border: 18px solid limegreen;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}
+.balloon:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: limegreen;
+  border: 18px solid #eee;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  box-sizing: content-box;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labelled buttons</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/eda8f28255.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <button id="white">
+        <i class="fas fa-trash"></i>
+      </button>
+      <button data-action="delete">
+        <i class="fas fa-trash"></i> <span>delete</span>
+      </button>
+      <button data-action="confirm">
+        <i class="fas fa-check-circle"></i> <span>sure?</span>
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li>ACCOUNT LOGIN</li>
+        <li>
+          <label for="name">USERNAME:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li id="liwithpass">
+          <label for="mail">PASSWORD:</label>
+          <input type="password" id="password" name="user_password" />
+
+          <i class="far fa-eye" id="togglePassword"></i>
+        </li>
+        <li class="help">Forgot your password?</li>
+        <li class="button">
+          <button type="submit">Login</button>
+        </li>
+      </ul>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
